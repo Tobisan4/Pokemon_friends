@@ -6,6 +6,29 @@ The power of ETL (Extract, Transform, Load)
 
 Before any data analysis is done and trends and conclusions are established, there are the data sources. A data source that is easy to access, properly formatted and validated is a key to any analysis. ETL is a process that helps create that data source. As the name suggests, it Extracts data from different sources and Transforms them into digestable information before Loading them a repository that will be easy for any analyst to access. 
 
+### Proposal
+
+# Data Sources
+
+We searched for topics that we are interested, in the end we chose two topics that we found in Kaggle [https://www.kaggle.com/](https://www.kaggle.com/). We selected a Pokemon themed dataset because of our familiarity with this particular segment. We also selected a Chick-Fil-A dataset, because were curious to learn about the nutritional portion of one of our favorite fast food chains.
+
+
+ThiagoAZen. (February 2022). All Pokemon with stats, Version 1. Retrieved from [https://www.kaggle.com/thiagoazen/all-pokemon-with-stats/](https://www.kaggle.com/thiagoazen/all-pokemon-with-stats/)
+
+Prasert Kanawattanachai. (March 2022). Chick-fil-A nutrition facts, Version 1. Retrieved from [https://www.kaggle.com/prasertk/chickfila-nutirtion-facts/](https://www.kaggle.com/prasertk/chickfila-nutirtion-facts/)
+
+# Database 
+
+The transformed data will be loaded to a Postgres relational database named: Pokemon_friends
+
+# Comments And Findings
+
+- The first comments we can make was it was 
+
+
+
+### Project Report
+
 ### All Pokemon With Stats
 
 Who doesn't like Pokemons? For this project we downloaded the [Pokemon data](PokemonDb.csv) from Kaggle. Focusing only on the basic type of Pokemons, we filtered out any variations of any Pokemon in the data set. The data was sorted using the Pokemon type categories, first by the Primary type (Type1) then by the Secondary type (Type2). Two new columns were then added, the Total Offensive and Total Defensive numbers which were calculated based on each Pokemon's stats. Additional steps like setting the title case for the Name, Type1 and Type2 columns, and formatting non numerical entrees were also done for better data presentation. The final step was loading it to the database, Pokemon_friends, for storage.
