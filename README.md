@@ -88,12 +88,19 @@ We downloaded the [Chick-Fil-A data](Resources/chick-fil-a-nutrition.csv) as a c
 These are the steps done to transform the data
 
 1. Filtered the dataset to only include the basic types of Pokemons, any variation was removed
+
 2. Removed the columns ("Variations" & "Total") that were not needed
+
 3. Replaced any NaN data with a blank
+
 4. Set the title case for the following data columns: "Name", "Type1", "Type2"
+
 5. Grouped the Pokemons first by their Primary type classification ("Type1") then by their secondary type ("Type2")
+
 6. Created and populated the "Total Attack" stats column (Total Attack = Attack + Sp.Atk)
+
 7. Created and populated the "Total Defense" stats column (Total Defense = Defense + Sp.Def)
+
 8. Reset the index column values
 
 ### Chick-Fil-A Nutrition Facts
@@ -109,9 +116,11 @@ These are the steps done to transform the data
     - 96
     - Catering
     - Bag
+    
 2. Edit the "Serving Size" data column
     2.a. Remove the trailing "g" from each data row
     2.b. Rename column header from "Serving Size" to "Serving Size (G)"
+    
 3. Convert the data types of the following columns to float
     - Serving Size (G)
     - Cholesterol (MG)
@@ -120,8 +129,11 @@ These are the steps done to transform the data
     - Fiber (G)
     - Sugar (G)
     - Protein (G)
+    
 4. Set the title case for the "Menu" data column
+
 5. Grouped the dataset first by calorie value ("Calories") then by serving size ("Serving Size (G)")
+
 6. Reset the index column values
 
 
