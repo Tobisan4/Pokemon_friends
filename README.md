@@ -107,7 +107,7 @@ These are the steps done to transform the data
 
 These are the steps done to transform the data
 
-1.Filtered the dataset to only include the single serving menu items, using the keywords below to remove unwanted items
+ 1.Filtered the dataset to only include the single serving menu items, using the keywords below to remove unwanted items
     - Tray
     - Gallon
     - Bucket
