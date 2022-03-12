@@ -117,11 +117,11 @@ These are the steps done to transform the data
     - 96
     - Catering
     - Bag
-    
-2. Edit the "Serving Size" data column
-    2.a. Remove the trailing "g" from each data row
-    2.b. Rename column header from "Serving Size" to "Serving Size (G)"
 
+3. Edit the "Serving Size" data column
+    - Remove the trailing "g" from each data row
+    - Rename column header from "Serving Size" to "Serving Size (G)"
+  
 3. Convert the data types of the following columns to float
     - Serving Size (G)
     - Cholesterol (MG)
