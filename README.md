@@ -48,37 +48,37 @@ The transformed data will be loaded to a Postgres relational database named: Pok
 
 We downloaded the [Pokemon data](Resources/PokemonDb.csv) as a csv file from Kaggle. The csv file was then read into a dataframe with the following data types.
 
-Column Name  Data Type
-Name         object
-Variation    object
-Type1        object
-Type2        object
-Total         int64
-HP            int64
-Attack        int64
-Defense       int64
-Sp.Atk        int64
-Sp.Def        int64
-Speed         int64
+    Column Name  Data Type
+    Name         object
+    Variation    object
+    Type1        object
+    Type2        object
+    Total         int64
+    HP            int64
+    Attack        int64
+    Defense       int64
+    Sp.Atk        int64
+    Sp.Def        int64
+    Speed         int64
 
 
 ### Chick-Fil-A Nutrition Facts
 
 We downloaded the [Chick-Fil-A data](Resources/chick-fil-a-nutrition.csv) as a csv file from Kaggle. The csv file was then read into a dataframe with the following data types.
 
-Column Name          Data Type
-Menu                  object
-Serving size          object
-Calories             float64
-Fat (G)              float64
-Sat. Fat (G)         float64
-Trans Fat (G)        float64
-Cholesterol (MG)       int64
-Sodium (MG)            int64
-Carbohydrates (G)      int64
-Fiber (G)              int64
-Sugar (G)              int64
-Protein (G)            int64
+    Column Name          Data Type
+    Menu                  object
+    Serving size          object
+    Calories             float64
+    Fat (G)              float64
+    Sat. Fat (G)         float64
+    Trans Fat (G)        float64
+    Cholesterol (MG)       int64
+    Sodium (MG)            int64
+    Carbohydrates (G)      int64
+    Fiber (G)              int64
+    Sugar (G)              int64
+    Protein (G)            int64
 
 
 ## Transform
@@ -127,7 +127,7 @@ These are the steps done to transform the data
 
 ## Additional information 
 
-For more information, please open the file [ETL Mapping document](ETL Mapping document.xlsx)
+For more information, please open the file [ETL Mapping document.xlsx](ETL Mapping document.xlsx)
 
 
 ## Load
@@ -136,18 +136,18 @@ For more information, please open the file [ETL Mapping document](ETL Mapping do
 
 After transformation the final dataframe had the following data structure
 
-Column Name      Data Type
-Name             object
-Type1            object
-Type2            object
-HP                int64
-Attack            int64
-Defense           int64
-Sp.Atk            int64
-Sp.Def            int64
-Speed             int64
-Total Attack      int64
-Total Defense     int64
+    Column Name      Data Type
+    Name             object
+    Type1            object
+    Type2            object
+    HP                int64
+    Attack            int64
+    Defense           int64
+    Sp.Atk            int64
+    Sp.Def            int64
+    Speed             int64
+    Total Attack      int64
+    Total Defense     int64
 
 The dataframe was then loaded to the Postgres database: Pokemon_friends, in the table: pokemon_data
 
@@ -156,19 +156,19 @@ The dataframe was then loaded to the Postgres database: Pokemon_friends, in the 
 
 After transformation the final dataframee had the following data structure
 
-Column Name          Data Type
-Menu                  object
-Serving Size (G)     float64
-Calories             float64
-Fat (G)              float64
-Sat. Fat (G)         float64
-Trans Fat (G)        float64
-Cholesterol (MG)     float64
-Sodium (MG)          float64
-Carbohydrates (G)    float64
-Fiber (G)            float64
-Sugar (G)            float64
-Protein (G)          float64
+    Column Name          Data Type
+    Menu                  object
+    Serving Size (G)     float64
+    Calories             float64
+    Fat (G)              float64
+    Sat. Fat (G)         float64
+    Trans Fat (G)        float64
+    Cholesterol (MG)     float64
+    Sodium (MG)          float64
+    Carbohydrates (G)    float64
+    Fiber (G)            float64
+    Sugar (G)            float64
+    Protein (G)          float64
 
 The dataframe was then loaded to the Postgres database: Pokemon_friends, in the table: chick_fil_a
 
